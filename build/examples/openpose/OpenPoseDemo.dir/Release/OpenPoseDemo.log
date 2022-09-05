@@ -1,0 +1,4 @@
+﻿  openpose.cpp
+C:\Users\Marty\Documents\STUDIA\!MGR\openpose\include\openpose/flags.hpp(49,1): warning C4245: 'initializing': conversion from 'int' to 'google::uint64', signed/unsigned mismatch
+     Creating library C:/Users/Marty/Documents/STUDIA/!MGR/openpose/build/examples/openpose/Release/OpenPoseDemo.lib and object C:/Users/Marty/Documents/STUDIA/!MGR/openpose/build/examples/openpose/Release/OpenPoseDemo.exp
+  OpenPoseDemo.vcxproj -> C:\Users\Marty\Documents\STUDIA\!MGR\openpose\build\x64\Release\OpenPoseDemo.exe

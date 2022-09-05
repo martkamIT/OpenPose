@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A8E15FD3-2E23-3628-81F6-6E272276C1B2}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Marty\Documents\STUDIA\!MGR\openpose\include;C:\Users\Marty\Documents\STUDIA\!MGR\openpose\3rdparty\windows\opencv\include;C:\Users\Marty\Documents\STUDIA\!MGR\openpose\3rdparty\windows\caffe_cpu\include;C:\Users\Marty\Documents\STUDIA\!MGR\openpose\3rdparty\windows\caffe_cpu\include2;C:\Users\Marty\Documents\STUDIA\!MGR\openpose\3rdparty\windows\caffe3rdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Marty\Documents\STUDIA\!MGR\openpose\include;C:\Users\Marty\Documents\STUDIA\!MGR\openpose\3rdparty\windows\opencv\include;C:\Users\Marty\Documents\STUDIA\!MGR\openpose\3rdparty\windows\caffe_cpu\include;C:\Users\Marty\Documents\STUDIA\!MGR\openpose\3rdparty\windows\caffe_cpu\include2;C:\Users\Marty\Documents\STUDIA\!MGR\openpose\3rdparty\windows\caffe3rdparty\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Marty\Documents\STUDIA\!MGR\openpose\build\examples\tutorial_api_cpp\01_body_from_image_default.vcxproj">
+      <Project>{10E7CE66-5056-3841-824A-5AF54BC6682F}</Project>
+      <Name>01_body_from_image_default</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marty\Documents\STUDIA\!MGR\openpose\build\examples\tutorial_api_cpp\02_whole_body_from_image_default.vcxproj">
+      <Project>{1C570D8A-D47E-3278-AE73-2DFFAC18D397}</Project>
+      <Name>02_whole_body_from_image_default</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marty\Documents\STUDIA\!MGR\openpose\build\examples\tutorial_api_cpp\03_keypoints_from_image.vcxproj">
+      <Project>{B18F6CA4-91E4-3496-9047-E96E1C975FD6}</Project>
+      <Name>03_keypoints_from_image</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marty\Documents\STUDIA\!MGR\openpose\build\examples\tutorial_api_cpp\04_keypoints_from_images.vcxproj">
+      <Project>{7728E872-001E-3206-8783-759C69D3FDB5}</Project>
+      <Name>04_keypoints_from_images</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marty\Documents\STUDIA\!MGR\openpose\build\examples\tutorial_api_cpp\05_keypoints_from_images_multi_gpu.vcxproj">
+      <Project>{8920F6C4-D914-31F8-B1B4-5CB49DC77FAC}</Project>
+      <Name>05_keypoints_from_images_multi_gpu</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marty\Documents\STUDIA\!MGR\openpose\build\examples\tutorial_api_cpp\06_face_from_image.vcxproj">
+      <Project>{669AA9BC-451C-345C-A22C-EF148D69D6CF}</Project>
+      <Name>06_face_from_image</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marty\Documents\STUDIA\!MGR\openpose\build\examples\tutorial_api_cpp\07_hand_from_image.vcxproj">
+      <Project>{37E7C6ED-3E9E-3A22-8239-F4BC5266016C}</Project>
+      <Name>07_hand_from_image</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marty\Documents\STUDIA\!MGR\openpose\build\examples\tutorial_api_cpp\08_heatmaps_from_image.vcxproj">
+      <Project>{FC5E5369-996C-3119-A70E-7FB1B69073A6}</Project>
+      <Name>08_heatmaps_from_image</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marty\Documents\STUDIA\!MGR\openpose\build\examples\tutorial_api_cpp\09_keypoints_from_heatmaps.vcxproj">
+      <Project>{FAC761A0-5A6E-3D5B-8051-7495454E2C38}</Project>
+      <Name>09_keypoints_from_heatmaps</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marty\Documents\STUDIA\!MGR\openpose\build\examples\tutorial_api_cpp\10_asynchronous_custom_input.vcxproj">
+      <Project>{ED69F355-1A65-3C38-86A3-EF8AFDF986D4}</Project>
+      <Name>10_asynchronous_custom_input</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marty\Documents\STUDIA\!MGR\openpose\build\examples\tutorial_api_cpp\11_asynchronous_custom_input_multi_camera.vcxproj">
+      <Project>{2D93F0D7-CB6D-31E5-A2E2-6C13DD066862}</Project>
+      <Name>11_asynchronous_custom_input_multi_camera</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marty\Documents\STUDIA\!MGR\openpose\build\examples\tutorial_api_cpp\12_asynchronous_custom_output.vcxproj">
+      <Project>{D70D97A7-99E3-315C-84CE-C6C255A90CBF}</Project>
+      <Name>12_asynchronous_custom_output</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marty\Documents\STUDIA\!MGR\openpose\build\examples\tutorial_api_cpp\13_asynchronous_custom_input_output_and_datum.vcxproj">
+      <Project>{94D4DE46-4902-3929-9DB8-FE03FE3ECB5E}</Project>
+      <Name>13_asynchronous_custom_input_output_and_datum</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marty\Documents\STUDIA\!MGR\openpose\build\examples\tutorial_api_cpp\14_synchronous_custom_input.vcxproj">
+      <Project>{9D777DA4-1F79-3CA3-93AA-7C9F991AE265}</Project>
+      <Name>14_synchronous_custom_input</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marty\Documents\STUDIA\!MGR\openpose\build\examples\tutorial_api_cpp\15_synchronous_custom_preprocessing.vcxproj">
+      <Project>{0260841B-754F-341C-A74F-39C0FF861377}</Project>
+      <Name>15_synchronous_custom_preprocessing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marty\Documents\STUDIA\!MGR\openpose\build\examples\tutorial_api_cpp\16_synchronous_custom_postprocessing.vcxproj">
+      <Project>{B3E6946F-3145-3248-88EA-B10D82677C49}</Project>
+      <Name>16_synchronous_custom_postprocessing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marty\Documents\STUDIA\!MGR\openpose\build\examples\tutorial_api_cpp\17_synchronous_custom_output.vcxproj">
+      <Project>{9D4877C9-2121-3918-AEEA-B61BD5331DC2}</Project>
+      <Name>17_synchronous_custom_output</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marty\Documents\STUDIA\!MGR\openpose\build\examples\tutorial_api_cpp\18_synchronous_custom_all_and_datum.vcxproj">
+      <Project>{81146BEB-A067-3A51-A002-17C9047557D1}</Project>
+      <Name>18_synchronous_custom_all_and_datum</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marty\Documents\STUDIA\!MGR\openpose\build\examples\calibration\Calibration.vcxproj">
+      <Project>{8631E4E6-0D26-330D-9176-19FE5766833A}</Project>
+      <Name>Calibration</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marty\Documents\STUDIA\!MGR\openpose\build\examples\openpose\OpenPoseDemo.vcxproj">
+      <Project>{7B3AEFCD-96B2-3A9A-ACDF-ED20CF23D0D3}</Project>
+      <Name>OpenPoseDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marty\Documents\STUDIA\!MGR\openpose\build\src\openpose\openpose.vcxproj">
+      <Project>{B283E1E5-6366-37B9-A0EE-780D781A5E86}</Project>
+      <Name>openpose</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marty\Documents\STUDIA\!MGR\openpose\build\python\openpose\pyopenpose.vcxproj">
+      <Project>{720AF5A1-82CB-3EC4-8A42-F8D5AF084230}</Project>
+      <Name>pyopenpose</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marty\Documents\STUDIA\!MGR\openpose\build\examples\deprecated\tutorial_add_module_custom_post_processing.vcxproj">
+      <Project>{EB3AAAF2-4D3C-3F1F-B2BC-2E8B46210284}</Project>
+      <Name>tutorial_add_module_custom_post_processing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marty\Documents\STUDIA\!MGR\openpose\build\examples\deprecated\tutorial_api_thread_1_user_processing_function.vcxproj">
+      <Project>{203C85C7-8DDC-3247-B05A-73A169B9E99A}</Project>
+      <Name>tutorial_api_thread_1_user_processing_function</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marty\Documents\STUDIA\!MGR\openpose\build\examples\deprecated\tutorial_api_thread_2_user_input_processing_output_and_datum.vcxproj">
+      <Project>{5F89CF78-DF73-331B-9376-B822EF674968}</Project>
+      <Name>tutorial_api_thread_2_user_input_processing_output_and_datum</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

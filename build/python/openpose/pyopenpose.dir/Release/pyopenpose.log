@@ -1,0 +1,4 @@
+﻿  openpose_python.cpp
+C:\Users\Marty\Documents\STUDIA\!MGR\openpose\include\openpose/flags.hpp(49,1): warning C4245: 'initializing': conversion from 'int' to 'google::uint64', signed/unsigned mismatch
+C:\Users\Marty\Documents\STUDIA\!MGR\openpose\3rdparty\pybind11\include\pybind11/numpy.h(35,22): error C2065: 'ssize_t': undeclared identifier
+C:\Users\Marty\Documents\STUDIA\!MGR\openpose\3rdparty\pybind11\include\pybind11/numpy.h(35,31): error C2338: ssize_t != Py_intptr_t

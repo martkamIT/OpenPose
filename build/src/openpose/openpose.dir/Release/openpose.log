@@ -1,0 +1,187 @@
+﻿  cameraParameterReader.cpp
+  jointAngleEstimation.cpp
+  poseTriangulation.cpp
+  poseTriangulationPrivate.cpp
+  cameraParameterEstimation.cpp
+  gridPatternFunctions.cpp
+  array.cpp
+  arrayCpuGpu.cpp
+  cvMatToOpInput.cpp
+C:\Users\Marty\Documents\STUDIA\!MGR\openpose\3rdparty\windows\caffe3rdparty\include\google/protobuf/message_lite.h(247,32): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\Marty\Documents\STUDIA\!MGR\openpose\src\openpose\core\arrayCpuGpu.cpp)
+C:\Users\Marty\Documents\STUDIA\!MGR\openpose\3rdparty\windows\caffe_cpu\include\caffe/blob.hpp(101,1): warning C4267: 'return': conversion from 'size_t' to 'int32_t', possible loss of data (compiling source file C:\Users\Marty\Documents\STUDIA\!MGR\openpose\src\openpose\core\arrayCpuGpu.cpp)
+C:\Users\Marty\Documents\STUDIA\!MGR\openpose\3rdparty\windows\caffe_cpu\include\caffe/blob.hpp(100): message : while compiling class template member function 'int32_t caffe::Blob<T>::num_axes(void) const'
+          with
+          [
+              T=double
+          ] (compiling source file C:\Users\Marty\Documents\STUDIA\!MGR\openpose\src\openpose\core\arrayCpuGpu.cpp)
+C:\Users\Marty\Documents\STUDIA\!MGR\openpose\src\openpose\core\arrayCpuGpu.cpp(265): message : see reference to function template instantiation 'int32_t caffe::Blob<T>::num_axes(void) const' being compiled
+          with
+          [
+              T=double
+          ]
+C:\Users\Marty\Documents\STUDIA\!MGR\openpose\src\openpose\core\arrayCpuGpu.cpp(130): message : see reference to class template instantiation 'caffe::Blob<T>' being compiled
+          with
+          [
+              T=double
+          ]
+C:\Users\Marty\Documents\STUDIA\!MGR\openpose\src\openpose\core\arrayCpuGpu.cpp(121): message : while compiling class template member function 'op::ArrayCpuGpu<double>::ArrayCpuGpu(const int,const int,const int,const int)'
+C:\Users\Marty\Documents\STUDIA\!MGR\openpose\src\openpose\core\arrayCpuGpu.cpp(890): message : see reference to class template instantiation 'op::ArrayCpuGpu<double>' being compiled
+C:\Users\Marty\Documents\STUDIA\!MGR\openpose\src\openpose\calibration\cameraParameterEstimation.cpp(199,29): warning C4244: 'return': conversion from 'long double' to 'double', possible loss of data
+  cvMatToOpOutput.cpp
+  datum.cpp
+  gpuRenderer.cpp
+  keepTopNPeople.cpp
+  keypointScaler.cpp
+  matrix.cpp
+  opOutputToCvMat.cpp
+  point.cpp
+  rectangle.cpp
+  renderer.cpp
+  scaleAndSizeExtractor.cpp
+  verbosePrinter.cpp
+  faceDetector.cpp
+  faceDetectorOpenCV.cpp
+  faceExtractorCaffe.cpp
+  faceExtractorNet.cpp
+  faceCpuRenderer.cpp
+  faceGpuRenderer.cpp
+  faceRenderer.cpp
+C:\Users\Marty\Documents\STUDIA\!MGR\openpose\3rdparty\windows\caffe3rdparty\include\google/protobuf/message_lite.h(247,32): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\Marty\Documents\STUDIA\!MGR\openpose\src\openpose\face\faceExtractorCaffe.cpp)
+  renderFace.cpp
+  bvhSaver.cpp
+  cocoJsonSaver.cpp
+  fileSaver.cpp
+  fileStream.cpp
+  heatMapSaver.cpp
+  imageSaver.cpp
+  jsonOfstream.cpp
+  keypointSaver.cpp
+  peopleJsonSaver.cpp
+  udpSender.cpp
+  videoSaver.cpp
+  cuda.cpp
+  gpu.cpp
+  opencl.cpp
+  frameDisplayer.cpp
+  gui.cpp
+  guiAdam.cpp
+  gui3D.cpp
+  guiInfoAdder.cpp
+  handDetector.cpp
+  handDetectorFromTxt.cpp
+  handExtractorCaffe.cpp
+  handExtractorNet.cpp
+C:\Users\Marty\Documents\STUDIA\!MGR\openpose\3rdparty\windows\caffe3rdparty\include\google/protobuf/message_lite.h(247,32): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\Marty\Documents\STUDIA\!MGR\openpose\src\openpose\hand\handExtractorCaffe.cpp)
+  handCpuRenderer.cpp
+  handGpuRenderer.cpp
+  handRenderer.cpp
+  renderHand.cpp
+  bodyPartConnectorBase.cpp
+  bodyPartConnectorBaseCL.cpp
+  bodyPartConnectorCaffe.cpp
+  maximumBase.cpp
+  maximumCaffe.cpp
+  netCaffe.cpp
+  netOpenCv.cpp
+C:\Users\Marty\Documents\STUDIA\!MGR\openpose\3rdparty\windows\caffe3rdparty\include\google/protobuf/message_lite.h(247,32): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\Marty\Documents\STUDIA\!MGR\openpose\src\openpose\net\bodyPartConnectorCaffe.cpp)
+  nmsBase.cpp
+C:\Users\Marty\Documents\STUDIA\!MGR\openpose\3rdparty\windows\caffe3rdparty\include\google/protobuf/message_lite.h(247,32): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\Marty\Documents\STUDIA\!MGR\openpose\src\openpose\net\netOpenCv.cpp)
+C:\Users\Marty\Documents\STUDIA\!MGR\openpose\3rdparty\windows\caffe3rdparty\include\google/protobuf/message_lite.h(247,32): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\Marty\Documents\STUDIA\!MGR\openpose\src\openpose\net\maximumCaffe.cpp)
+C:\Users\Marty\Documents\STUDIA\!MGR\openpose\3rdparty\windows\caffe3rdparty\include\google/protobuf/message_lite.h(247,32): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\Marty\Documents\STUDIA\!MGR\openpose\src\openpose\net\netCaffe.cpp)
+  nmsBaseCL.cpp
+  nmsCaffe.cpp
+C:\Users\Marty\Documents\STUDIA\!MGR\openpose\3rdparty\windows\caffe_cpu\include\caffe/layer.hpp(297,55): warning C4100: 'bottom_index': unreferenced formal parameter (compiling source file C:\Users\Marty\Documents\STUDIA\!MGR\openpose\src\openpose\net\netCaffe.cpp)
+C:\Users\Marty\Documents\STUDIA\!MGR\openpose\3rdparty\windows\caffe_cpu\include\caffe/layer.hpp(297): message : while compiling class template member function 'bool caffe::Layer<Dtype>::AllowForceBackward(const int32_t) const'
+          with
+          [
+              Dtype=float
+          ] (compiling source file C:\Users\Marty\Documents\STUDIA\!MGR\openpose\src\openpose\net\netCaffe.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(1680): message : see reference to class template instantiation 'caffe::Layer<Dtype>' being compiled
+          with
+          [
+              Dtype=float
+          ] (compiling source file C:\Users\Marty\Documents\STUDIA\!MGR\openpose\src\openpose\net\netCaffe.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(1678): message : while compiling class template member function 'void std::vector<boost::shared_ptr<caffe::Layer<Dtype>>,std::allocator<boost::shared_ptr<caffe::Layer<Dtype>>>>::_Destroy(boost::shared_ptr<caffe::Layer<Dtype>> *,boost::shared_ptr<caffe::Layer<Dtype>> *)'
+          with
+          [
+              Dtype=float
+          ] (compiling source file C:\Users\Marty\Documents\STUDIA\!MGR\openpose\src\openpose\net\netCaffe.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(1764): message : see reference to function template instantiation 'void std::vector<boost::shared_ptr<caffe::Layer<Dtype>>,std::allocator<boost::shared_ptr<caffe::Layer<Dtype>>>>::_Destroy(boost::shared_ptr<caffe::Layer<Dtype>> *,boost::shared_ptr<caffe::Layer<Dtype>> *)' being compiled
+          with
+          [
+              Dtype=float
+          ] (compiling source file C:\Users\Marty\Documents\STUDIA\!MGR\openpose\src\openpose\net\netCaffe.cpp)
+C:\Users\Marty\Documents\STUDIA\!MGR\openpose\3rdparty\windows\caffe_cpu\include\caffe/net.hpp(301): message : see reference to class template instantiation 'std::vector<boost::shared_ptr<caffe::Layer<Dtype>>,std::allocator<boost::shared_ptr<caffe::Layer<Dtype>>>>' being compiled
+          with
+          [
+              Dtype=float
+          ] (compiling source file C:\Users\Marty\Documents\STUDIA\!MGR\openpose\src\openpose\net\netCaffe.cpp)
+C:\Users\Marty\Documents\STUDIA\!MGR\openpose\src\openpose\net\netCaffe.cpp(112): message : see reference to class template instantiation 'caffe::Net<float>' being compiled
+C:\Users\Marty\Documents\STUDIA\!MGR\openpose\3rdparty\windows\caffe_cpu\include\caffe/layer.hpp(100,55): warning C4100: 'top': unreferenced formal parameter (compiling source file C:\Users\Marty\Documents\STUDIA\!MGR\openpose\src\openpose\net\netCaffe.cpp)
+C:\Users\Marty\Documents\STUDIA\!MGR\openpose\3rdparty\windows\caffe_cpu\include\caffe/layer.hpp(100): message : while compiling class template member function 'void caffe::Layer<Dtype>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<caffe::Blob<Dtype> *>> &,const std::vector<caffe::Blob<Dtype> *,std::allocator<caffe::Blob<Dtype> *>> &)'
+          with
+          [
+              Dtype=float
+          ] (compiling source file C:\Users\Marty\Documents\STUDIA\!MGR\openpose\src\openpose\net\netCaffe.cpp)
+C:\Users\Marty\Documents\STUDIA\!MGR\openpose\3rdparty\windows\caffe_cpu\include\caffe/layer.hpp(99,55): warning C4100: 'bottom': unreferenced formal parameter (compiling source file C:\Users\Marty\Documents\STUDIA\!MGR\openpose\src\openpose\net\netCaffe.cpp)
+C:\Users\Marty\Documents\STUDIA\!MGR\openpose\3rdparty\windows\caffe3rdparty\include\google/protobuf/message_lite.h(247,32): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\Marty\Documents\STUDIA\!MGR\openpose\src\openpose\net\nmsCaffe.cpp)
+  resizeAndMergeBase.cpp
+  resizeAndMergeBaseCL.cpp
+  resizeAndMergeCaffe.cpp
+  poseCpuRenderer.cpp
+C:\Users\Marty\Documents\STUDIA\!MGR\openpose\3rdparty\windows\caffe3rdparty\include\google/protobuf/message_lite.h(247,32): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\Marty\Documents\STUDIA\!MGR\openpose\src\openpose\net\resizeAndMergeCaffe.cpp)
+  poseExtractor.cpp
+  poseExtractorCaffe.cpp
+  poseExtractorNet.cpp
+  poseGpuRenderer.cpp
+  poseParameters.cpp
+  poseParametersRender.cpp
+  poseRenderer.cpp
+  renderPose.cpp
+  datumProducer.cpp
+  flirReader.cpp
+  imageDirectoryReader.cpp
+  ipCameraReader.cpp
+  producer.cpp
+  spinnakerWrapper.cpp
+  videoCaptureReader.cpp
+  videoReader.cpp
+  webcamReader.cpp
+  personIdExtractor.cpp
+  personTracker.cpp
+  pyramidalLK.cpp
+  unityBinding.cpp
+  errorAndLog.cpp
+  fileSystem.cpp
+  flagsToOpenPose.cpp
+  keypoint.cpp
+C:\Users\Marty\Documents\STUDIA\!MGR\openpose\src\openpose\utilities\errorAndLog.cpp(120,23): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Marty\Documents\STUDIA\!MGR\openpose\src\openpose\utilities\flagsToOpenPose.cpp(331,32): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  openCv.cpp
+C:\Users\Marty\Documents\STUDIA\!MGR\openpose\src\openpose\utilities\fileSystem.cpp(136,30): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  openCvPrivate.cpp
+  profiler.cpp
+  wrapperAuxiliary.cpp
+  wrapperStructExtra.cpp
+  wrapperStructFace.cpp
+  wrapperStructGui.cpp
+  wrapperStructHand.cpp
+  wrapperStructInput.cpp
+  wrapperStructOutput.cpp
+  wrapperStructPose.cpp
+  defineTemplates.cpp
+  defineTemplates.cpp
+  string.cpp
+  defineTemplates.cpp
+  defineTemplates.cpp
+  defineTemplates.cpp
+  defineTemplates.cpp
+  defineTemplates.cpp
+  defineTemplates.cpp
+  defineTemplates.cpp
+  defineTemplates.cpp
+  string.cpp
+  defineTemplates.cpp
+     Creating library C:/Users/Marty/Documents/STUDIA/!MGR/openpose/build/src/openpose/Release/openpose.lib and object C:/Users/Marty/Documents/STUDIA/!MGR/openpose/build/src/openpose/Release/openpose.exp
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  openpose.vcxproj -> C:\Users\Marty\Documents\STUDIA\!MGR\openpose\build\x64\Release\openpose.dll
